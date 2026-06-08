@@ -1,14 +1,13 @@
-# EX-NO-5-IMPLEMENTATION-OF-RAIL-FENCE
-
-## AIM:
+EX-NO-5-IMPLEMENTATION-OF-RAIL-FENCE
+NAME: ARAVINDAN T
+REG NO: 2305001003
+AIM:
 To write a C program to implement the rail fence transposition technique.
 
-## DESCRIPTION:
-
+DESCRIPTION:
 In the rail fence cipher, the plain text is written downwards and diagonally on successive "rails" of an imaginary fence, then moving up when we reach the bottom rail. When we reach the top rail, the message is written downwards again until the whole plaintext is written out. The message is then read off in rows.
 
-## ALGORITHM:
-
+ALGORITHM:
 STEP-1: Read the Plain text.
 
 STEP-2: Arrange the plain text in row columnar matrix format.
@@ -19,8 +18,7 @@ STEP-4: Arrange the characters of the keyword in sorted order and the correspond
 
 STEP-5: Read the characters row wise or column wise in the former order to get the cipher text.
 
-## PROGRAM
-```
+PROGRAM
 #include <stdio.h>
 #include <string.h>
 
@@ -62,10 +60,11 @@ int main()
                 printf("%c", code[i][j]);
 
     return 0;
-}
-```
-## OUTPUT
+    }
+    
+OUTPUT
 
+<img width="363" height="252" alt="image" src="https://github.com/user-attachments/assets/f8aa1d0a-a01e-48ac-9685-5943401c1a4d" />
 
-## RESULT
+RESULT
 Hence the experiment has been executed successfully
